@@ -64,6 +64,7 @@ import com.kucoin.sdk.rest.response.WithdrawQuotaResponse;
 import com.kucoin.sdk.rest.response.WithdrawResponse;
 import org.hamcrest.core.Is;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -84,6 +85,7 @@ import static org.hamcrest.core.IsNull.notNullValue;
 /**
  * Created by chenshiwei on 2019/1/21.
  */
+@Ignore
 public class KucoinRestClientTest {
     private static KucoinRestClient sandboxKucoinRestClient;
     private static KucoinRestClient liveKucoinRestClient;
